@@ -1,0 +1,13 @@
+[workspace]
+members = [ "src/dsapi","src/ragcli", "src/vectorstore"]   # 添加子模块
+default-members = ["src/dsapi","src/ragcli", "src/vectorstore"] #在执行cargo build等命令时，不指定package参数时，默认对default-members生效
+resolver = "2"                # 使用版本2的resolver
+
+[workspace.package]
+version = "0.0.2"             # 指定工作区的版本
+edition = "2021"              # 指定工作区的Rust版本
+license = "Apache-2.0"        # 指定工作区的许可证
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] } # 添加serde依赖
+serde_json = "1.0"            # 添加serde_json依赖

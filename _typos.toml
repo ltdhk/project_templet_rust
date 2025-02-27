@@ -1,0 +1,6 @@
+[default.extend-words]
+# 常用缩写
+SUBSCRIBLE = "SUBSCRIBLE"
+[files]
+# 不检查下面的文件
+extend-exclude = ["README.md", "CHANGELOG.md", "notebooks/*","target/*"]

@@ -1,0 +1,7 @@
+[package]
+name = "dsapi"
+version.workspace = true                  # 版本号
+edition.workspace = true                  # 版本号
+license.workspace = true                  # 许可证
+
+[dependencies]

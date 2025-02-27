@@ -1,0 +1,10 @@
+
+[package]
+name = "ragcli"                           # 项目名称
+version.workspace = true                  # 版本号
+edition.workspace = true                  # 版本号
+license.workspace = true                  # 许可证
+
+[dependencies]
+serde.workspace = true                    # 序列化和反序列化
+serde_json.workspace = true               # JSON 序列化和反序列化
